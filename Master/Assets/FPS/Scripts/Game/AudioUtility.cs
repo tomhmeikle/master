@@ -20,7 +20,8 @@ namespace Unity.FPS.Game
             HUDVictory,
             HUDObjective,
             EnemyAttack,
-            UIStart
+            UIStart,
+            UIFinish
         }
 
         public static void CreateSFX(AudioClip clip, Vector3 position, AudioGroups audioGroup, float spatialBlend,
